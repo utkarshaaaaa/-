@@ -15,7 +15,7 @@ function App() {
       socket.emit("join_room", room);
       setshow(true);
     } else {
-      console.log("fill the form");
+      console.log("fill the details");
     }
   };
 
